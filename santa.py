@@ -109,5 +109,14 @@ def page_not_found(e):
     # note that we set the 404 status explicitly
     return 'такої сторінки нема, не мудруй з URLами', 404
 
+
+@app.route('/delete_all', methods=['GET', 'POST'])
+def delete_all():
+    users = User.query.all()
+    for user in users:
+        user.kid = ''
+    db.session.commit()
+    return 'all kids deleted'
+
 if __name__ == '__main__':
     app.run(debug=True)
