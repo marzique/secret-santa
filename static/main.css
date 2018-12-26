@@ -1,0 +1,141 @@
+body 
+{
+	padding: 0;
+	margin: 0;
+	
+}
+
+header 
+{
+	position: center;
+	padding: 10px;
+	background-color: #337ab7;
+	height: 40px;
+}
+
+section
+{
+	background-color: #fff;
+	padding-bottom: 300px;
+}
+
+footer
+{
+	background-color: #337ab7;
+	padding-bottom: auto;	
+}
+
+.container 
+{
+	width: 800px;
+	/*border: 10px solid red;*/
+	margin: 0 auto;
+
+}
+
+p {
+	color: #fff;
+	text-decoration: none;
+	font: 12pt courier new;
+	float: left;
+	margin-top: 10px;
+}
+
+nav
+{
+	float: right; 
+	margin-top: 10px;
+}
+
+.menu 
+{
+	padding: 0;
+	margin: 0;
+
+	display: block;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.menu li 
+{
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+.menu a 
+{
+	color: #fff;
+	font: 12pt courier new;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+form
+{
+	margin-top: 170px;
+}
+
+h1{
+	font: 32pt courier new;
+	text-align: center
+}
+
+h2{
+	font: 22pt courier new;
+	color: coral;
+	text-align: center
+}
+
+button
+{
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 20px;
+	background-color: #d9edf7;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+input
+{	
+	font-size: 24px;
+	text-align: center;
+	width: 480px;
+	padding: 5px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+.notes li
+{
+	color: #3958D0;
+	background-color: #d9edf7;
+	margin-top = 200px;
+	margin-bottom: 10px;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding: 5px;
+}
+
+.chosen{
+	margin-top: 50px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 300px;
+}
+
+#logoharya{
+	width: 40px;
+	border-radius: 50%;
+	padding-left: 1%;
+	padding-top: 0;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Я дарю подарок ....</title>
+	<link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+	<header>
+		<div class="upline">
+                <div class="container">
+                        <img id='logoharya' src="{{ url_for('static', filename='img/' + 'harya.jpg') }}">
+                        <a href="{{ url_for('index') }}"><p>Secret Santa 2019</p> 
+                        </a>
+                    </div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+            <h2>{{username_self}} дарит подарок: </h2>
+            <img class="chosen" src="{{ image_file_kid }}">
+			<h1>
+                {{username_kid}} <br> <small>{{email_kid}}</small>
+            </h1>
+            
+		</div>
+	</section>
+</body>
+</html>
